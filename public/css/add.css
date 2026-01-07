@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.add {
+    width: 100%;
+}
+
+.add h1 {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add h1 a {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-container{
+    padding: 10px;
+}
+
+.form-container button {
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.form-container button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.813);
+}
+
+
+
+.inputs {
+    margin-bottom: 10px;
+}
+
+.inputs input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin: 3px 0;
+}
+
+.inputs select{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin: 3px 0;
+}
