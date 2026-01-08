@@ -6,10 +6,18 @@ class Response {
     }
 
     public function json($data=[]){
-        return json_encode($data);
+        header('Content-Type: application/json');
+        echo json_encode($data);
+        exit();
+    }
+
+    public function decode($data){
+        return json_decode($data,true);
     }
 
     public function redirect($path='/'){
-        header("Location: $path");
+        header("Location: /$path");
+        exit;
     }
+
 }

@@ -2,7 +2,7 @@
 
 function myAutoloader($class){
     $root = __DIR__ . "/../app/";
-    $folders = ['models/','controllers/','core/'];
+    $folders = ['models/','controllers/','core/','helpers/'];
     $ext = ".class.php";
 
     foreach($folders as $folder){

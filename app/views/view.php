@@ -15,10 +15,10 @@
             <div class="profile">
                 <img src="./images/sample.jpg" alt="Sample">
                 <div class="info">
-                    <p>Student ID: <span>23-0201</span></p>
-                    <p>Full Name: <span>Alexander Jerome</span></p>
-                    <p>Email: <span>ajlobo@gmail.com</span></p>
-                    <p>Course: <span>BSCS</span></p>
+                    <p>Student ID: <span><?= $data['student_id'] ?></span></p>
+                    <p>Full Name: <span><?= strtoupper($data['full_name']) ?></span></p>
+                    <p>Email: <span><?= $data['email'] ?></span></p>
+                    <p>Course: <span><?= strtoupper($data['course']) ?></span></p>
                 </div>
             </div>
         </div>
